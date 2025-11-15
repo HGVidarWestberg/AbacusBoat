@@ -38,5 +38,5 @@ void loop(){
     }
   }
   
-   Firebase.setInt(firebaseData, "/servoValue", xValue/6);
+   Firebase.setInt(firebaseData, "/servoValue", ((xValue/12)+45));
 }
